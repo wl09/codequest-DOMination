@@ -27,3 +27,22 @@ body {
     font-size: 18px;
     margin-bottom: 15px;
 }
+
+#option {
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+    margin-bottom: 15px;
+    ;
+
+}
+
+.option-btn{
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    background-color: : #f0f0f0;
+    cursor: pointer;
+    transition: all 0.3 ease;
+
+}
