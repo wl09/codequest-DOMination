@@ -25,3 +25,12 @@ const quizQuestions = [
     correctAnswer: ".push()"
   }
 ];
+
+let currentQuestionIndex = 0;
+let score = 0;
+
+const questionEl= document.getElementById("question");
+const optionsEl = document.getElementById("options");
+const nextBtn =document.getElementById("next-btn")
+const result El = document.getElementById("result");
+
